@@ -13,6 +13,23 @@ switch (a) {
 ~~~
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~cpp
+if (a == 0) {
+   cout << "A";
+} else if (a == 1) {
+   cout << "Z";
+} else if (a == 2) {
+   cout << "a";
+} else {
+   cout << "b";
+}
+~~~
+
+</details>
+
+<details>
 <summary>Solution</summary>
 
 ~~~cpp 
@@ -35,6 +52,18 @@ switch (a) {
 }
 ~~~
 
+<details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~cpp
+if (a == 0) {
+   cout << "A";
+} else {
+   cout << "D";
+}
+~~~
+
+</details>
 
 <details>
 <summary>Solution</summary>
@@ -60,6 +89,23 @@ switch (a) {
    default : cout << "D"; 
 }
 ~~~
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~cpp
+if (a <= 5) {
+   cout << "A";
+} else if (a == 3) {
+   cout << "34";
+} else if (a == 7) {
+   cout << "4";
+} else {
+   cout << "D";
+}
+~~~
+
+</details>
 
 <details>
 <summary>Solution</summary>

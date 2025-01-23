@@ -13,6 +13,17 @@ for (int i = 1; i <= 3; ++i) {
 ~~~   
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~
+****
+****
+****
+~~~
+</details>
+
+
+<details>
 <summary>Solution</summary>
 
 ~~~
@@ -31,6 +42,18 @@ for (int i = 0; i < 4; ++i) {
    cout << endl;
 }
 ~~~   
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~
+***
+***
+***
+***
+~~~
+</details>
+
 
 <details>
 <summary>Solution</summary>
@@ -52,6 +75,18 @@ for (int i = 1; i <= 4; ++i) {
    cout << endl;
 }
 ~~~   
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~
+*
+**
+***
+****
+~~~
+</details>
+
 
 <details>
 <summary>Solution</summary>
@@ -79,6 +114,17 @@ for (int i = 1; i <= 3; ++i) {
 ~~~   
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~
+xoxox
+xoxox
+xoxox
+~~~
+</details>
+
+
+<details>
 <summary>Solution</summary>
 
 ~~~
@@ -100,6 +146,18 @@ for (int i = 1; i <= 3; ++i) {
    cout << endl;
 }
 ~~~
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~
+oxoxo
+xoxox
+oxoxo
+~~~
+
+</details>
+
 
 <details>
 <summary>Solution</summary>

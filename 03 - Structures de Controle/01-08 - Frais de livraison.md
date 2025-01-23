@@ -18,8 +18,56 @@ int main() {
    char reponse1; cin >> reponse1;
    
    // votre code vient ici
+  
 }
 ~~~
+
+<details>
+<summary>Ma réponse (Ischim):</summary>
+
+~~~cpp
+#include <iostream>
+#include <cstlib>
+
+using namespace std;
+
+int main() {
+   cout << "Livraison en Suisse ? (O/N) ";
+   char reponse1; cin >> reponse1;
+   
+   // votre code vient ici
+   const double frais_suisse           5.0;
+   const double frais_suisse_exeption  7.0;
+   const double frais_liechtenstein    7.0;
+   const double frais_monde           10.0;
+
+   double frais_client                 0.0;
+
+    if (reponse1 == 'O' or reponse1 == 'o') {
+      cout << "Livraison dans le Tessin "
+           << "ou aux Grisson ? (O/N)";
+      char reponse2; cin >> reponse2;
+
+      frais_client = (reponse2 == 'O' or reponse2 == 'o') ?
+                     frais_suisse_exeption :
+                     frais_suisse;
+   
+   } else {
+      cout << "Livraison au Liechtenstein ? (O/N)"
+      char reponse2; cin >> reponse2;
+
+   frais_client = (reponse2 == 'O' or reponse2 == 'o') ? 
+                  frais_liechenstein : 
+                  frais_monde;
+   }
+
+   cout << "Pour votre envoi, il y a " << frais_client 
+        << " CHF de frais d'envoie." << endl;
+}
+~~~
+
+</details>
+
 
 <details>
 <summary>Solution</summary>

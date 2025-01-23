@@ -15,14 +15,34 @@ if (a == 1) {
 ~~~
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~cpp
+switch(a) {
+   case 1 :
+      cout << "A";
+      break;
+   case 2 :
+      cout << "E";
+      break;
+   case 4 :
+      cout << "C";
+   default:
+      cout << "BA";
+}
+~~~
+
+</details>
+
+<details>
 <summary>Solution</summary>
 
 ~~~cpp 
 switch (a) {
+   default : cout << "BA"; 
    case 1 : cout << "A"; break;
    case 4 : cout << "C"; break;
    case 2 : cout << "E"; break;
-   default : cout << "BA";
 }   
 ~~~
 
@@ -37,6 +57,27 @@ if (a < 0 or a >= 5) {
    cout << "B";
 }  
 ~~~
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~cpp
+switch(a) {
+   case 0 :
+   case 1 :
+   case 2 :
+      cout << "A";
+      break;
+   case 3 :
+   case 4 :
+      cout << "B";
+      break;
+   default:
+      cout << "D";
+}
+~~~
+
+</details>
 
 <details>
 <summary>Solution</summary>

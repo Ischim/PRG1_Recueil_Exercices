@@ -11,6 +11,13 @@ if (i < 1) {
 ~~~
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+~~~cpp
+b = (i < 1) or (1 > 2);
+~~~
+</details>
+
+<details>
 <summary>Solution</summary>
 
 ~~~cpp
@@ -29,6 +36,14 @@ if (j == 0) {
    }
 }
 ~~~
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+~~~cpp
+b = (j == 0) or !(i/j < k);
+b = (j == 0) or  (i/j >= k);
+~~~
+</details>
 
 <details>
 <summary>Solution</summary>
@@ -51,6 +66,20 @@ if (j == 0) {
    }
 }
 ~~~
+
+### Table de Vérité
+| j == 0 | i/j  < k | b     |
+| ------ | -------- | ----- |
+| True   | X        | False |
+| False  | True     | True  |
+| False  | False    | False |
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+~~~cpp
+b = !(j == 0) and (i/j < k);
+~~~
+</details>
 
 <details>
 <summary>Solution</summary>

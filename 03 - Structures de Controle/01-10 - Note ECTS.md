@@ -3,13 +3,13 @@
 L'université de Genève utilise le barème suivant pour convertir ses notes au quart de point entre 0 et 6 en notes ECTS entre F et A.
 
 | Note UNIGE  | Note ECTS |
-|-------------|---- |
-| 5.25 - 6.00 | A |
-| 4.75 - 5.00 | B |
-| 4.50        | C |
-| 4.25        | D |
-| 4.00        | E |
-| 0.00 - 3.75 | F |
+| ----------- | --------- |
+| 5.25 - 6.00 | A         |
+| 4.75 - 5.00 | B         |
+| 4.50        | C         |
+| 4.25        | D         |
+| 4.00        | E         |
+| 0.00 - 3.75 | F         |
 
 Ecrire un programme qui demande la note à convertir à l'utilisateur, la stocke dans une variable de type `double`, et indique la note ECTS équivalente
 
@@ -34,6 +34,41 @@ La note ECTS est : D
 Entrez la note UNIGE : 7
 Erreur
 ~~~
+
+<details>
+<summary>Ma réponse (Ischim):</summary>
+
+~~~cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+   cout << "Entrez la note UNIGE : ";
+   double note; cin >> note;
+   
+   if (note < 0. or note > 6.) {
+      cout << "Erreur" << endl;
+      return EXIT_FAILURE;
+   } else {
+      cout << "La note ECTS est : ";
+
+      if (note < 4.)
+         cout << 'F' << endl;
+      else if (note < 4.25)
+         cout << 'E' << endl;
+      else if (note < 4.50)
+         cout << 'D' << endl;
+      else if (note < 4.75)
+         cout << 'C' << endl;
+      else if (note < 5.25)
+         cout << 'B' << endl;
+      else
+         cout << 'A' << endl;
+
+~~~
+</details>
 
 <details>
 <summary>Solution</summary>

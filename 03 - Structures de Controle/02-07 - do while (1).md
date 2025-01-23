@@ -12,6 +12,11 @@ do {
 ~~~
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+1 2 3 4 5 6 7 8 9
+</details>
+
+<details>
 <summary>Solution</summary>
 
 ~~~
@@ -28,6 +33,11 @@ do {
    ++i;
 } while (i < 0); 
 ~~~
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+0
+</details>
 
 <details>
 <summary>Solution</summary>
@@ -48,6 +58,11 @@ do {
 ~~~
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+2 3 4 5 6  7 8 9 10
+</details>
+
+<details>
 <summary>Solution</summary>
 
 ~~~
@@ -63,6 +78,11 @@ do {
    i /= 2;
 } while (i > 0); 
 ~~~
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+20 10 5 2 1
+</details>
 
 <details>
 <summary>Solution</summary>
@@ -82,24 +102,14 @@ do {
 ~~~
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+20
+</details>
+
+<details>
 <summary>Solution</summary>
 
 ~~~
 20
 ~~~
-</details>
-
-~~~cpp
-// 6
-int i = 20;
-do
-   cout << i << " ";
-   i /= 2;
-while (i < 0); 
-~~~
-
-<details>
-<summary>Solution</summary>
-
-manque les `{` `}` => ne compile pas
 </details>

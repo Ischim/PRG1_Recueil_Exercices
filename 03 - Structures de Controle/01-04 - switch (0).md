@@ -29,6 +29,15 @@ Que va-t-il afficher lorsque l'utilisateur entre comme valeur
 ~~~
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~
+AB, car on rentre dans le cas 0, on éxécute le cas 0, puis tous le code qui suit jusqu'on trouve un "break;" Qui est à la fin du cas n° 2.
+~~~
+
+</details>
+
+<details>
 <summary>Solution</summary>
 
 ~~~
@@ -39,6 +48,15 @@ AB
 ~~~
 1
 ~~~
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~
+B, car comme précédament on execute le cas n°1 (ici sans code), comme ici pas de break;, on passe au cas n°2 et on sort car il y a un break.
+~~~
+
+</details>
 
 <details>
 <summary>Solution</summary>
@@ -53,6 +71,15 @@ B
 ~~~
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~
+B, car comme on rentre dans le cas n°2 et comme il y a un break, on sort du switch.
+~~~
+
+</details>
+
+<details>
 <summary>Solution</summary>
 
 ~~~
@@ -63,6 +90,15 @@ B
 ~~~
 4
 ~~~
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~
+CD, car on execute le code des cas 4-5 et default, car pas de break;
+~~~
+
+</details>
 
 <details>
 <summary>Solution</summary>
@@ -77,6 +113,15 @@ CD
 ~~~
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~
+D, car 6 ne correspond à aucun cas spécifié. donc on rentre dans le cas par defaut
+~~~
+
+</details>
+
+<details>
 <summary>Solution</summary>
 
 ~~~
@@ -87,6 +132,16 @@ D
 ~~~
 -1
 ~~~
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~
+D, car -1 ne correspond à aucun cas spécifieé. donc on rentre dans le cas par defaut
+~~~
+
+</details>
+
 
 <details>
 <summary>Solution</summary>

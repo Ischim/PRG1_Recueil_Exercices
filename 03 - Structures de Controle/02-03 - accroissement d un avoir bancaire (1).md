@@ -40,6 +40,48 @@ Le montant ne sera jamais atteint
 ~~~
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+
+~~~cpp
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main() {
+    cout << "Entrez le montant initial > ";
+    double montant_initial; // en CHF
+    cin >> montant_initial;
+
+    cout << "Entrez le montant cible > ";
+    double montant_cible; // en CHF
+    cin >> montant_cible;
+
+    cout << "Entrez le taux d'interet annuel en % > ";
+    double taux_interet_annuel; // en %
+    cin >> taux_interet_annuel;
+
+    // Cas particulier, initial < final, mais avec taux négatif
+    if (( montant_initial < montant_cible ) && taux_interet_annuel <= 0.0) {
+        cout << "Le montant ne sera jamais atteint" << endl;
+        return EXIT_SUCCESS;
+    }
+    int nb_annee = 0 ;
+    double capital = montant_initial;
+    while (capital <= montant_cible) {
+        capital *= (1 + taux_interet_annuel/100.);
+        ++nb_annee;
+    }
+
+    cout << "Le montant cible est atteint apres " << nb_annee
+         << " an" << (nb_annee > 1 ? "s":"") << "." << endl;
+
+    return EXIT_SUCCESS;
+}
+~~~
+</details>
+
+<details>
 <summary>Solution</summary>
 
 ~~~cpp

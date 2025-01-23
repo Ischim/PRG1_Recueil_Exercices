@@ -11,6 +11,13 @@ if (a > 0) {
 ~~~
 
 <details>
+<summary> Ma réponse (Ischim):</summary>
+~~~cpp
+b += a > 0 ? a: (-2*a);
+~~~
+</details>
+
+<details>
 <summary>Solution</summary>
 
 ~~~cpp 
@@ -28,6 +35,15 @@ if (d == 0.) {
    r = n/d; 
 }
 ~~~
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+~~~cpp
+r = d == 0 ? 1e100 : n/d;
+// ou
+r = d != 0 ? n/d   : 1e100;
+~~~
+</details>
 
 <details>
 <summary>Solution</summary>
@@ -51,6 +67,13 @@ if (a > 0) {
    b *= 2;
 }
 ~~~
+
+<details>
+<summary> Ma réponse (Ischim):</summary>
+~~~cpp
+b = a > 0 ? /*++b*/ b + 1 : (a == 0 ? 0 : b * 2);
+~~~
+</details>
 
 <details>
 <summary>Solution</summary>
