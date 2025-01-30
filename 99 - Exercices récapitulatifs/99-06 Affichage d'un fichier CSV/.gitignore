@@ -2,5 +2,6 @@
 /.idea
 *.txt
 !CMakeLists.txt
+!data.txt
 build/
 *.exe
